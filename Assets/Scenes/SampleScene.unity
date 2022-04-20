@@ -653,6 +653,7 @@ GameObject:
   - component: {fileID: 866237936}
   - component: {fileID: 866237935}
   - component: {fileID: 866237938}
+  - component: {fileID: 866237939}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -729,6 +730,29 @@ MonoBehaviour:
   sensY: 20
   cameraHolder: {fileID: 555984578}
   orientation: {fileID: 1993745497}
+--- !u!114 &866237939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866237934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0dbd86e251c3f548845470c0230e131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation: {fileID: 0}
+  wallDistance: 0.5
+  minimumJumpHeight: 1.5
+  wallRunGravity: 0
+  wallRunJumpForce: 0
+  cam: {fileID: 0}
+  fov: 0
+  wallRunfov: 0
+  wallRunfovTime: 0
+  camTilt: 0
+  camTiltTime: 0
 --- !u!1 &907538691
 GameObject:
   m_ObjectHideFlags: 0
